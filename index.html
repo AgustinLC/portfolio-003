@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Agustin Coria</title>
+
+  <!-- custom css link-->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- google font link-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--MAIN-->
+  <main>
+
+    <!--BARRA LATERAL-->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Agustín Coria" class="avatar-img">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Agustín Coria">Agustín Coria</h1>
+
+          <p class="title">Developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Contactos</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:agusx1xcoria@gmail.com" class="contact-link">agusx1xcoria@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Linkedin</p>
+
+              <a target="_blank" href="https://www.linkedin.com/in/agustin-coria-576848238/" class="contact-link">Ver
+                perfil de Linkedin</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="logo-github"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">GitHub</p>
+
+              <a target="_blank" href="https://github.com/AgustinLC" class="contact-link">Ver perfil de GitHub</a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--CONTENIDO PRINCIPAL-->
+    <div class="main-content">
+
+      <!--BARRA DE NAVEGACIÓN-->
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link="about">Acerca de</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="resume">Estudios</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="portfolio">Cursos</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="project">Proyectos</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link="contact">Contacto</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--#SOBRE MI-->
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">Acerca de mí</h2>
+        </header>
+        <section class="about-text">
+          <p>
+            "Me llamo Agustín Coria, estudio Desarrollo de Software en el Instituto Tecnológico de Junín. Siempre he
+            amado programar y busco constantemente mejorar. Me considero creativo, adaptable y eficiente en la gestión
+            del
+            tiempo y los detalles. Mi enfoque está en resolver problemas con pensamiento crítico. Estoy emocionado
+            por seguir aprendiendo y creciendo en el desarrollo de software."
+          </p>
+          <p>
+            Mi trabajo es construir tu sitio web para que sea funcional y fácil de usar, pero al mismo tiempo atractivo.
+            Además, le agrego un toque personal a tu producto y me aseguro de que sea llamativo y fácil de usar. Mi
+            objetivo es transmitir tu mensaje e identidad de la manera más creativa posible.
+          </p>
+        </section>
+
+
+        <!--- QUE HAGO-->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">¿Qué hago?</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-develop.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo Back-End</h4>
+
+                <p class="service-item-text">
+                  Habilidad para crear y gestionar la lógica del servidor, bases de datos y API que sostienen las
+                  aplicaciones web.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-web.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Desarrollo Front-End</h4>
+
+                <p class="service-item-text">
+                  Desarrollo de sitios web de alta calidad a nivel profesional.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-testing.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Pruebas y Depuración</h4>
+
+                <p class="service-item-text">
+                  Realizo pruebas para identificar y corregir errores o bugs en el software.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Diseño de Soluciones</h4>
+
+                <p class="service-item-text">
+                  Puedo crear diseños técnicos y diagramas que guíen la implementación del software.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--EDUCACIÓN-->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Educación y Habilidades</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educación</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instituto de educación superior 9-021</h4>
+
+              <span>2022 — 2024</span>
+
+              <p class="timeline-text">
+                Tecnico superior en desarrollo de software: El Técnico Superior en Desarrollo de Software estará
+                capacitado para diseñar, construir,
+                verificar, depurar, optimizar y mantener artefactos de software, reutilizando elementos
+                existentes o programándolos desde cero.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Escuela 4-062 Prof. Juana B. Albornoz de Cortés</h4>
+
+              <span>2012 — 2017</span>
+
+              <p class="timeline-text">
+                Técnico en Industrias de Proceso: El tecnico en industrias de procesos esta capacitado para desempeñarse
+                en diversas áreas industriales, enfocándose en la operación, mantenimiento y optimización de procesos
+                productivos
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">Mis habilidades</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Java</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Spring Boot</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Javascript</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+                <data value="60">60%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">SQL</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--CURSOS-->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Cursos</h2>
+        </header>
+
+        <section class="courses">
+
+          <ul class="course-list">
+
+            <li class="course-item  active">
+              <a target="_blank" href="https://app.edutin.com/verify/6883392">
+
+                <figure class="course-img">
+                  <div class="course-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="course-title">Tester de software</h3>
+
+                <p class="course-description">Realizado: Edutin Academy</p>
+
+              </a>
+            </li>
+
+            <li class="course-item  active">
+              <a target="_blank"
+                href="https://www.linkedin.com/learning/certificates/3b106bcf318739f575737353fdea01aa042ade31a6d61569ccbbc3032d38bffd?trk=share_certificate">
+
+                <figure class="course-img">
+                  <div class="course-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course-2.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="course-title">Fundamentos de la programación</h3>
+
+                <p class="course-description">Realizado: Linkedin</p>
+
+              </a>
+            </li>
+
+            <li class="course-item  active">
+              <a target="_blank"
+                href="https://www.udemy.com/certificate/UC-550da5f9-2a2f-4c16-bdbe-0b9f5d65ddc0/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com">
+
+                <figure class="course-img">
+                  <div class="course-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="course-title">SQL</h3>
+
+                <p class="course-description">Realizado: Udemy</p>
+
+              </a>
+            </li>
+
+            <li class="course-item  active">
+              <a target="_blank"
+                href="https://www.udemy.com/certificate/UC-427f5bfa-2e45-4dc5-b296-2f03d2f32481/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com">
+
+                <figure class="course-img">
+                  <div class="course-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course-4.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="course-title">HTML-CSS-JAVASCRIPT</h3>
+
+                <p class="course-description">Realizado: Udemy</p>
+
+              </a>
+            </li>
+
+            <li class="course-item  active">
+              <a target="_blank"
+                href="https://www.udemy.com/certificate/UC-5262796d-54ce-4bfb-a9d0-69bcee279b0f/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com">
+
+                <figure class="course-img">
+                  <div class="course-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course-5.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="course-title">JAVA</h3>
+
+                <p class="course-description">Realizado: Udemy</p>
+
+              </a>
+            </li>
+
+            <li class="course-item  active">
+              <a target="_blank" href="https://www.udemy.com/certificate/UC-673c0ad6-9d07-426a-b2f5-0653d65ceae4/">
+
+                <figure class="course-img">
+                  <div class="course-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/course-6.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="course-title">SQL</h3>
+
+                <p class="course-description">Realizado: Udemy</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--- #PROYECTOS-->
+
+      <article class="project" data-page="project">
+
+        <header>
+          <h2 class="h2 article-title">Proyectos personales</h2>
+        </header>
+
+        <section class="project-posts">
+
+          <ul class="project-posts-list">
+
+            <li class="project-post-item">
+              <a href="#">
+
+                <figure class="project-banner-box">
+                  <img src="./assets/images/project-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="project-content">
+
+                  <div class="project-meta">
+                    <p class="project-category">Diseñado</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Julio, 2024</time>
+                  </div>
+
+                  <h3 class="h3 project-item-title">Mi carrera perfecta</h3>
+
+                  <p class="project-text">
+                    "Mi Carrera Perfecta" es una aplicación web diseñada para ayudar a los usuarios a encontrar y
+                    explorar opciones de carrera que se alineen con sus intereses, habilidades e inteligencias,
+                    ofreciendo un cuestionario interactivo y filtros personalizados para guiar su elección profesional.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="project-post-item">
+              <a href="#">
+
+                <figure class="project-banner-box">
+                  <img src="./assets/images/project-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="project-content">
+
+                  <div class="project-meta">
+                    <p class="project-category">Diseñado</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Diciembre, 2024</time>
+                  </div>
+
+                  <h3 class="h3 project-item-title">Consorcio vecinal de agua</h3>
+
+                  <p class="project-text">
+                    "La aplicación del consorcio vecinal de agua potable facilita la gestión comunitaria del suministro
+                    de agua, permitiendo a los vecinos acceder a información relevante, reportar incidencias, y realizar
+                    pagos de manera sencilla y eficiente."
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="project-post-item">
+              <a href="#">
+
+                <figure class="project-banner-box">
+                  <img src="./assets/images/project-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="project-content">
+
+                  <div class="project-meta">
+                    <p class="project-category">Diseñado</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Agosto, 2024</time>
+                  </div>
+
+                  <h3 class="h3 project-item-title">Mi portfolio</h3>
+
+                  <p class="project-text">
+                    "Mi portfolio es una plataforma personal donde muestro mis proyectos y habilidades, destacando mi
+                    experiencia en desarrollo web, diseño, y programación, con un enfoque en la interactividad y la
+                    personalización para ofrecer una experiencia única a los visitantes."
+                  </p>
+
+                </div>
+
+              </a>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      <!--- #CONTACT-->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contáctame</h2>
+        </header>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Formulario de contacto</h3>
+
+          <form action="#" class="form" data-form>
+
+            <p class="contact-text">Nombre completo</p>
+            <input type="text" name="fullname" class="form-input" placeholder="Ingresa tu nombre completo" required data-form-input>
+
+            <p class="contact-text">Correo electronico</p>
+            <input type="email" name="email" class="form-input" placeholder="Ingresa tu email" required data-form-input>
+
+            <p class="contact-text">Mensaje</p>
+            <textarea name="message" class="form-input" placeholder="Escribe aquí" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Enviar mensaje</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--- custom js link-->
+  <script src="./assets/js/script.js"></script>
+
+  <!--- ionicon link-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
